@@ -17,6 +17,7 @@
 		CDC6970C1D38C003005F1AF2 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6970B1D38C003005F1AF2 /* DetailController.swift */; };
 		CDC6970E1D38C21E005F1AF2 /* WeeklyLunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6970D1D38C21E005F1AF2 /* WeeklyLunchViewController.swift */; };
 		CDC697151D38CE53005F1AF2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC697141D38CE53005F1AF2 /* HomeView.swift */; };
+		CDC697191D38E028005F1AF2 /* BubbleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC697181D38E028005F1AF2 /* BubbleButton.swift */; };
 		FED726F082B554D7BBFF14A7 /* libPods-NoLunchNoLife.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B9C7FB625C8B3D708D1E1C /* libPods-NoLunchNoLife.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		CDC6970B1D38C003005F1AF2 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		CDC6970D1D38C21E005F1AF2 /* WeeklyLunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyLunchViewController.swift; sourceTree = "<group>"; };
 		CDC697141D38CE53005F1AF2 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CDC697181D38E028005F1AF2 /* BubbleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 		CDC697121D38CB68005F1AF2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CDC697161D38DFE4005F1AF2 /* common */,
 				CDC697131D38CB78005F1AF2 /* Home */,
 			);
 			name = View;
@@ -198,6 +201,14 @@
 				CDC697141D38CE53005F1AF2 /* HomeView.swift */,
 			);
 			name = Home;
+			sourceTree = "<group>";
+		};
+		CDC697161D38DFE4005F1AF2 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				CDC697181D38E028005F1AF2 /* BubbleButton.swift */,
+			);
+			name = common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,6 +396,7 @@
 				CD877EEC1D38739700D8C342 /* HomeViewController.swift in Sources */,
 				CD877EEA1D38739700D8C342 /* AppDelegate.swift in Sources */,
 				CDC697151D38CE53005F1AF2 /* HomeView.swift in Sources */,
+				CDC697191D38E028005F1AF2 /* BubbleButton.swift in Sources */,
 				CD877F181D387EB100D8C342 /* MainTabBarController.swift in Sources */,
 				CDC6970E1D38C21E005F1AF2 /* WeeklyLunchViewController.swift in Sources */,
 			);
