@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F60BFABAAEDAD2DD8F00EA83CBA78A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		4B04F13EB9EB966CC3ABDD15F8035D41 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D7DC82AF6F6260F768473B043656411 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CFB7467E7653E25409AD1CED6D068DA /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = E41D14862AA071D9F8A5E652619270AF /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C1A80A6B10427E003119BB4772A869E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		865531C322C2D4989356481BCBEAD9AF /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F48602517ECB353DCB8C98633FCAB09 /* ALView+PureLayout.m */; };
+		9143BBC017132F4AC0E7ECE9B8BFA631 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E956DAAFFAB936CB60D9273E05D498 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945994A7567124F6932EB25742E4D5C6 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF183D164AEA03A4AA2A2F5185EFE7D /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4B79386FD4F54FC21ECD2D8F9DEB1DF /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0A907C755768715DA7F954CDC61B9E /* PureLayout-dummy.m */; };
+		B621250B52B0C35FE651CA34EBF349F3 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FC3649F700A415796A33CE2641055 /* NSArray+PureLayout.m */; };
+		C2685D65E64038D2B79A3BD8F450BF81 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = D10E06F10AB8CECE8141D32B75CCA4FE /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1FED3C2AB7F2C96D3C186BBC2BD26E0 /* Pods-NoLunchNoLife-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1401755C3340D1F194550AB8B2FF22 /* Pods-NoLunchNoLife-dummy.m */; };
+		E7D5CDC7698A1BF560EEC86828B4F755 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 45945D8F3DAD605A883B94C9128AB860 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3E814B4547C2E9E20387AB9C03EFEA7 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F545BE94C48C8AFEED462FE6F8D3597A /* NSLayoutConstraint+PureLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DEB3F512A931658DC94359A619C350A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1391A59D9E3EC3FA199269C775F0410;
+			remoteInfo = PureLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		129832CAED57495522F06699874AB5E0 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		1951A12F7C46D8BBF64BC9D3F882A2EA /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
+		1A1401755C3340D1F194550AB8B2FF22 /* Pods-NoLunchNoLife-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NoLunchNoLife-dummy.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		45945D8F3DAD605A883B94C9128AB860 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		536F0C8C827B5B3AE7CE4953CB4CBCF3 /* Pods-NoLunchNoLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoLunchNoLife.debug.xcconfig"; sourceTree = "<group>"; };
+		57E956DAAFFAB936CB60D9273E05D498 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		5F48602517ECB353DCB8C98633FCAB09 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		68F73F38A086C43EB0FCBE7591BB4182 /* libPureLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPureLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB34D7569553D57EBFC6E127E549456 /* Pods-NoLunchNoLife-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NoLunchNoLife-resources.sh"; sourceTree = "<group>"; };
+		7D7DC82AF6F6260F768473B043656411 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		873FC3649F700A415796A33CE2641055 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		874955E126ABD030DC3483440CB4B50F /* Pods-NoLunchNoLife-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NoLunchNoLife-frameworks.sh"; sourceTree = "<group>"; };
+		87E4833BBC767DEE5DF46FA30AEDD82D /* libPods-NoLunchNoLife.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NoLunchNoLife.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9613B6D9836E60E4ECE1094373BAA3F7 /* Pods-NoLunchNoLife-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NoLunchNoLife-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACF183D164AEA03A4AA2A2F5185EFE7D /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFCA1A47FD517C83A017CD8A5E54FA6A /* Pods-NoLunchNoLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoLunchNoLife.release.xcconfig"; sourceTree = "<group>"; };
+		CE0A907C755768715DA7F954CDC61B9E /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
+		D10E06F10AB8CECE8141D32B75CCA4FE /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		E41D14862AA071D9F8A5E652619270AF /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		F545BE94C48C8AFEED462FE6F8D3597A /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		FC32588BAB54676EAA7E94C04E7E2738 /* Pods-NoLunchNoLife-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NoLunchNoLife-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BF2FED55F82322BF81DE1B3BD034E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1A80A6B10427E003119BB4772A869E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599B89D4527FDCB4F5DA6B6D1D9BAB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F60BFABAAEDAD2DD8F00EA83CBA78A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4938010B49724A046B1FFE0C1E8EB423 /* Pods-NoLunchNoLife */ = {
+			isa = PBXGroup;
+			children = (
+				9613B6D9836E60E4ECE1094373BAA3F7 /* Pods-NoLunchNoLife-acknowledgements.markdown */,
+				FC32588BAB54676EAA7E94C04E7E2738 /* Pods-NoLunchNoLife-acknowledgements.plist */,
+				1A1401755C3340D1F194550AB8B2FF22 /* Pods-NoLunchNoLife-dummy.m */,
+				874955E126ABD030DC3483440CB4B50F /* Pods-NoLunchNoLife-frameworks.sh */,
+				7CB34D7569553D57EBFC6E127E549456 /* Pods-NoLunchNoLife-resources.sh */,
+				536F0C8C827B5B3AE7CE4953CB4CBCF3 /* Pods-NoLunchNoLife.debug.xcconfig */,
+				BFCA1A47FD517C83A017CD8A5E54FA6A /* Pods-NoLunchNoLife.release.xcconfig */,
+			);
+			name = "Pods-NoLunchNoLife";
+			path = "Target Support Files/Pods-NoLunchNoLife";
+			sourceTree = "<group>";
+		};
+		645028843C2D4D7FDA57A34A856F72C3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4938010B49724A046B1FFE0C1E8EB423 /* Pods-NoLunchNoLife */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A2FDD832DA64F35B104DD4C55A31BF8E /* Pods */,
+				E30CC3D48809B8A5B133BB3CD26D0105 /* Products */,
+				645028843C2D4D7FDA57A34A856F72C3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83F65399C3808A743CC1392CF12DD692 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1951A12F7C46D8BBF64BC9D3F882A2EA /* PureLayout.xcconfig */,
+				CE0A907C755768715DA7F954CDC61B9E /* PureLayout-dummy.m */,
+				129832CAED57495522F06699874AB5E0 /* PureLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PureLayout";
+			sourceTree = "<group>";
+		};
+		A2FDD832DA64F35B104DD4C55A31BF8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB198DB8875A98298498BA74D26897FE /* PureLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB198DB8875A98298498BA74D26897FE /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				45945D8F3DAD605A883B94C9128AB860 /* ALView+PureLayout.h */,
+				5F48602517ECB353DCB8C98633FCAB09 /* ALView+PureLayout.m */,
+				7D7DC82AF6F6260F768473B043656411 /* NSArray+PureLayout.h */,
+				873FC3649F700A415796A33CE2641055 /* NSArray+PureLayout.m */,
+				E41D14862AA071D9F8A5E652619270AF /* NSLayoutConstraint+PureLayout.h */,
+				F545BE94C48C8AFEED462FE6F8D3597A /* NSLayoutConstraint+PureLayout.m */,
+				57E956DAAFFAB936CB60D9273E05D498 /* PureLayout.h */,
+				D10E06F10AB8CECE8141D32B75CCA4FE /* PureLayout+Internal.h */,
+				ACF183D164AEA03A4AA2A2F5185EFE7D /* PureLayoutDefines.h */,
+				83F65399C3808A743CC1392CF12DD692 /* Support Files */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E30CC3D48809B8A5B133BB3CD26D0105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87E4833BBC767DEE5DF46FA30AEDD82D /* libPods-NoLunchNoLife.a */,
+				68F73F38A086C43EB0FCBE7591BB4182 /* libPureLayout.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		85DAD2B552A02B1364E9A51FA2272F24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D5CDC7698A1BF560EEC86828B4F755 /* ALView+PureLayout.h in Headers */,
+				4B04F13EB9EB966CC3ABDD15F8035D41 /* NSArray+PureLayout.h in Headers */,
+				4CFB7467E7653E25409AD1CED6D068DA /* NSLayoutConstraint+PureLayout.h in Headers */,
+				C2685D65E64038D2B79A3BD8F450BF81 /* PureLayout+Internal.h in Headers */,
+				9143BBC017132F4AC0E7ECE9B8BFA631 /* PureLayout.h in Headers */,
+				945994A7567124F6932EB25742E4D5C6 /* PureLayoutDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		41EEE0BB6668978CCC5530926F6CEF06 /* Pods-NoLunchNoLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D9C6A67E4E0EC3CE616FAB2986F4A19 /* Build configuration list for PBXNativeTarget "Pods-NoLunchNoLife" */;
+			buildPhases = (
+				E5651C8D763CEDA8A215D89CAB1C5362 /* Sources */,
+				599B89D4527FDCB4F5DA6B6D1D9BAB4A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C49FC548EBF23BA07F7877D26789D0BD /* PBXTargetDependency */,
+			);
+			name = "Pods-NoLunchNoLife";
+			productName = "Pods-NoLunchNoLife";
+			productReference = 87E4833BBC767DEE5DF46FA30AEDD82D /* libPods-NoLunchNoLife.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B1391A59D9E3EC3FA199269C775F0410 /* PureLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3A962BC1A1E5FA54ECD126E512EE13 /* Build configuration list for PBXNativeTarget "PureLayout" */;
+			buildPhases = (
+				28C54AB1ECF743008598940B07DA51E8 /* Sources */,
+				0BF2FED55F82322BF81DE1B3BD034E8D /* Frameworks */,
+				85DAD2B552A02B1364E9A51FA2272F24 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureLayout;
+			productName = PureLayout;
+			productReference = 68F73F38A086C43EB0FCBE7591BB4182 /* libPureLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E30CC3D48809B8A5B133BB3CD26D0105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41EEE0BB6668978CCC5530926F6CEF06 /* Pods-NoLunchNoLife */,
+				B1391A59D9E3EC3FA199269C775F0410 /* PureLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28C54AB1ECF743008598940B07DA51E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865531C322C2D4989356481BCBEAD9AF /* ALView+PureLayout.m in Sources */,
+				B621250B52B0C35FE651CA34EBF349F3 /* NSArray+PureLayout.m in Sources */,
+				F3E814B4547C2E9E20387AB9C03EFEA7 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				B4B79386FD4F54FC21ECD2D8F9DEB1DF /* PureLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5651C8D763CEDA8A215D89CAB1C5362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FED3C2AB7F2C96D3C186BBC2BD26E0 /* Pods-NoLunchNoLife-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C49FC548EBF23BA07F7877D26789D0BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = B1391A59D9E3EC3FA199269C775F0410 /* PureLayout */;
+			targetProxy = 9DEB3F512A931658DC94359A619C350A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A6D386E11B78820C1F6D834726F0A019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFCA1A47FD517C83A017CD8A5E54FA6A /* Pods-NoLunchNoLife.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA0DF3D3D3CD1091BCBA9BBC3E9CDD06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536F0C8C827B5B3AE7CE4953CB4CBCF3 /* Pods-NoLunchNoLife.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AECA8347C13AFFFB3525E6C6708D24FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1951A12F7C46D8BBF64BC9D3F882A2EA /* PureLayout.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC0667A8BFE34F354E441B231759F94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1951A12F7C46D8BBF64BC9D3F882A2EA /* PureLayout.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3A962BC1A1E5FA54ECD126E512EE13 /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECA8347C13AFFFB3525E6C6708D24FE /* Debug */,
+				EC0667A8BFE34F354E441B231759F94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D9C6A67E4E0EC3CE616FAB2986F4A19 /* Build configuration list for PBXNativeTarget "Pods-NoLunchNoLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0DF3D3D3CD1091BCBA9BBC3E9CDD06 /* Debug */,
+				A6D386E11B78820C1F6D834726F0A019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

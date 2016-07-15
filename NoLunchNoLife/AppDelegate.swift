@@ -12,14 +12,17 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    let mainTabBarController: MainTabBarController = MainTabBarController()
+    var navigationController: UINavigationController?
+    var mainTabBarController: MainTabBarController?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // UIWindowを生成.
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        mainTabBarController = MainTabBarController()
         
-        // rootViewControllerにMainTabBarControllerを設定
-        self.window?.rootViewController = mainTabBarController
+        navigationController = UINavigationController(rootViewController: mainTabBarController!)
+        navigationController!.navigationBarHidden = true
+        self.window?.rootViewController = navigationController
         
         self.window?.makeKeyAndVisible()
         
