@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 
 class HomeViewController: UIViewController, HomeViewDelegate {
     
@@ -17,19 +18,33 @@ class HomeViewController: UIViewController, HomeViewDelegate {
         homeView.delegate = self
         self.view = homeView
         
+        test()
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
-    func buttonTouched() {
+    func test() {
+        let lunchModel = LunchModel()
+        lunchModel.getLunch(
+            { (res: Lunch) -> Void in
+                // success
+                print(res.name)
+            },
+            error: { () -> Void in
+                // error
+                
+            }
+        )
+    }
+    
+    func buttonTouched(sender:UIButton) {
         self.view.backgroundColor = UIColor.orangeColor()
         
         let detailView = DetailController()
         self.navigationController?.pushViewController(detailView, animated: true)
     }
-
 
 }
 

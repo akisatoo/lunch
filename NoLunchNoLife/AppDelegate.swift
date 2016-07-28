@@ -21,7 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         mainTabBarController = MainTabBarController()
         
         navigationController = UINavigationController(rootViewController: mainTabBarController!)
-        navigationController!.navigationBarHidden = true
         self.window?.rootViewController = navigationController
         
         self.window?.makeKeyAndVisible()

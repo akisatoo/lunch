@@ -18,6 +18,9 @@
 		CDC6970E1D38C21E005F1AF2 /* WeeklyLunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6970D1D38C21E005F1AF2 /* WeeklyLunchViewController.swift */; };
 		CDC697151D38CE53005F1AF2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC697141D38CE53005F1AF2 /* HomeView.swift */; };
 		CDC697191D38E028005F1AF2 /* BubbleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC697181D38E028005F1AF2 /* BubbleButton.swift */; };
+		CDC6971B1D49D3AB005F1AF2 /* WeeklyLunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6971A1D49D3AB005F1AF2 /* WeeklyLunchView.swift */; };
+		CDC6971E1D49E82D005F1AF2 /* LunchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6971D1D49E82D005F1AF2 /* LunchModel.swift */; };
+		CDC697201D4A09C0005F1AF2 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6971F1D4A09C0005F1AF2 /* Modal.swift */; };
 		FED726F082B554D7BBFF14A7 /* libPods-NoLunchNoLife.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B9C7FB625C8B3D708D1E1C /* libPods-NoLunchNoLife.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +63,9 @@
 		CDC6970D1D38C21E005F1AF2 /* WeeklyLunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyLunchViewController.swift; sourceTree = "<group>"; };
 		CDC697141D38CE53005F1AF2 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CDC697181D38E028005F1AF2 /* BubbleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleButton.swift; sourceTree = "<group>"; };
+		CDC6971A1D49D3AB005F1AF2 /* WeeklyLunchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyLunchView.swift; sourceTree = "<group>"; };
+		CDC6971D1D49E82D005F1AF2 /* LunchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunchModel.swift; sourceTree = "<group>"; };
+		CDC6971F1D4A09C0005F1AF2 /* Modal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,7 @@
 		CD877EE81D38739700D8C342 /* NoLunchNoLife */ = {
 			isa = PBXGroup;
 			children = (
+				CDC6971C1D49E80A005F1AF2 /* Model */,
 				CD877EE91D38739700D8C342 /* AppDelegate.swift */,
 				CDC697121D38CB68005F1AF2 /* View */,
 				CDC6970F1D38C38E005F1AF2 /* Controller */,
@@ -199,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				CDC697141D38CE53005F1AF2 /* HomeView.swift */,
+				CDC6971A1D49D3AB005F1AF2 /* WeeklyLunchView.swift */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -209,6 +217,15 @@
 				CDC697181D38E028005F1AF2 /* BubbleButton.swift */,
 			);
 			name = common;
+			sourceTree = "<group>";
+		};
+		CDC6971C1D49E80A005F1AF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDC6971D1D49E82D005F1AF2 /* LunchModel.swift */,
+				CDC6971F1D4A09C0005F1AF2 /* Modal.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,12 +409,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDC6971E1D49E82D005F1AF2 /* LunchModel.swift in Sources */,
+				CDC697201D4A09C0005F1AF2 /* Modal.swift in Sources */,
 				CDC6970C1D38C003005F1AF2 /* DetailController.swift in Sources */,
 				CD877EEC1D38739700D8C342 /* HomeViewController.swift in Sources */,
 				CD877EEA1D38739700D8C342 /* AppDelegate.swift in Sources */,
 				CDC697151D38CE53005F1AF2 /* HomeView.swift in Sources */,
 				CDC697191D38E028005F1AF2 /* BubbleButton.swift in Sources */,
 				CD877F181D387EB100D8C342 /* MainTabBarController.swift in Sources */,
+				CDC6971B1D49D3AB005F1AF2 /* WeeklyLunchView.swift in Sources */,
 				CDC6970E1D38C21E005F1AF2 /* WeeklyLunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

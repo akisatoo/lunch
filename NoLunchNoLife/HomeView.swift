@@ -8,8 +8,8 @@
 
 import UIKit
 
-protocol HomeViewDelegate {
-    func buttonTouched()
+protocol HomeViewDelegate: NSObjectProtocol {
+    func buttonTouched(sender:UIButton)
 }
 
 class HomeView: UIView {
@@ -28,7 +28,7 @@ class HomeView: UIView {
         // タグを設定する.
         bubbleButton.tag = 1
         // イベントを追加する.
-        bubbleButton.addTarget(self, action: "onClickBubbleButton:", forControlEvents: .TouchUpInside)
+        bubbleButton.addTarget(delegate, action: "buttonTouched:", forControlEvents: .TouchUpInside)
         // ボタンをViewに追加する.
         self.addSubview(bubbleButton)
         // ボタンの位置を指定する.
@@ -39,11 +39,6 @@ class HomeView: UIView {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        
-    }
-    
-    func onClickBubbleButton(sender: UIButton){
-        delegate?.buttonTouched()
     }
     
 }
